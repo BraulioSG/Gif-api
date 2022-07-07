@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gif-api/static/css/main.a9e71d1e.css",
-    "main.js": "/gif-api/static/js/main.0722dfe8.js",
-    "static/js/787.c6570ffb.chunk.js": "/gif-api/static/js/787.c6570ffb.chunk.js",
-    "index.html": "/gif-api/index.html",
-    "main.a9e71d1e.css.map": "/gif-api/static/css/main.a9e71d1e.css.map",
-    "main.0722dfe8.js.map": "/gif-api/static/js/main.0722dfe8.js.map",
-    "787.c6570ffb.chunk.js.map": "/gif-api/static/js/787.c6570ffb.chunk.js.map"
+    "main.css": "/Gif-api/static/css/main.a9e71d1e.css",
+    "main.js": "/Gif-api/static/js/main.fbf6bf26.js",
+    "static/js/787.c6570ffb.chunk.js": "/Gif-api/static/js/787.c6570ffb.chunk.js",
+    "index.html": "/Gif-api/index.html",
+    "main.a9e71d1e.css.map": "/Gif-api/static/css/main.a9e71d1e.css.map",
+    "main.fbf6bf26.js.map": "/Gif-api/static/js/main.fbf6bf26.js.map",
+    "787.c6570ffb.chunk.js.map": "/Gif-api/static/js/787.c6570ffb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9e71d1e.css",
-    "static/js/main.0722dfe8.js"
+    "static/js/main.fbf6bf26.js"
   ]
 }
