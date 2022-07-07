@@ -1,0 +1,31 @@
+.imageContainer{
+    background: transparent;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    margin: 10px;
+    
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.imageContainer img{
+    width: auto;
+    height: 500px;
+}
+
+.imageContainer:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 
+        0 0 2px #fff,
+        0 0 10px #fff,
+        0 0 20px #0ba9ca,
+        0 0 30px #0ba9ca,
+        0 0 40px #0ba9ca,
+        0 0 50px #0ba9ca;
+}

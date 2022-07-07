@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React, {useState} from 'react'
 import './App.css';
 
+import Searchbar from './components/Searchbar'
+import Image from './components/Image'
+
+
 function App() {
+  const [data, setData] = useState({});
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Searchbar setData={setData}/>
+      <div className='imageSection'>
+        {data.length > 0 ? data.map(img => <Image imageInfo={img}/>) : <img  className="notFoundImg" src="https://cdn.iconscout.com/icon/free/png-256/data-not-found-1965034-1662569.png"></img>}
+      </div>
     </div>
   );
 }
